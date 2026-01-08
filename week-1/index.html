@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Taggar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-contents">
+        <h1>Aditya Taggar</h1>
+        <p>
+          Connect with me:
+          <a href="https://github.com/AdityaTaggar05" target="_blank">GitHub</a>
+        </p>
+      </div>
+      <img src="assets/profile.jpg" alt="Aditya's Photo" />
+    </header>
+    <script type="module" src="script.js"></script>
+    <main>
+      <section id="bio">
+        <h1>About Me</h1>
+        <p style="margin-top: 10px; margin-bottom: 20px">
+          I am tech enthusiast and a budding software developer with a passion
+          for blockchain technology. I love building innovative applications
+          that leverage and create impactful solutions. Currently I'm exploring
+          the depths of Web3 development, server-side development and machine
+          learning.
+        </p>
+        <h3>My Projects:</h3>
+        <table>
+          <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Technologies</th>
+          </tr>
+          <tr>
+            <td>godis</td>
+            <td>A Redis-like in-memory data store written in GoLang</td>
+            <td>GoLang</td>
+          </tr>
+          <tr>
+            <td>Verto</td>
+            <td>
+              A unique platform designed for individuals who want to share their
+              skills and learn from others in a fun, interactive way.
+            </td>
+            <td>GoLang, PostgreSQL, Flutter</td>
+          </tr>
+          <tr>
+            <td>Oratorz</td>
+            <td>A MUN & similar Mock Simulation aid</td>
+            <td>Flutter, Firebase</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="web3">
+        <h2>My First Web3 App</h2>
+        <p>Store a number on the blockchain!</p>
+        <input
+          type="number"
+          id="numberInput"
+          placeholder="Enter a number"
+          min="0"
+        />
+        <button id="submitBtn">Submit to Blockchain</button>
+        <p id="storedValue">Stored Value: Loading...</p>
+      </section>
+    </main>
+  </body>
+</html>
